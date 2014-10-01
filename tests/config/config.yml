@@ -1,0 +1,29 @@
+:uat:
+  marketo_site: https://app-q.marketo.com/#MM0A1
+  sfdc_site: https://test.salesforce.com
+  jigsaw_site: http://jigsaw-integration.thoughtworks.com:8080/login
+
+  ProfessionalServices User:
+     - preemish5+psuser@gmail.com
+     - Password@4
+  Administrator:
+     - admintestuser@thoughtworks.com.sfdcuat2
+     - Password@4
+  Studios:
+       - preemish5+studiosuser@gmail.com
+       - Password@4
+  Marketo:
+       - preetim@thoughtworks.com
+       - Password@4
+  Sfdc:
+       - preetim@thoughtworks.com.marketo
+       - Password@4
+  Jigsaw User:
+       - Nancy Kistler
+
+
+
+
+
+
+

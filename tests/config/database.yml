@@ -1,0 +1,10 @@
+:uat:
+  username: admintestuser@thoughtworks.com.sfdcuat2
+  password: Password@4JPOxBEyCm5tOXxdcSMH7nyWX
+  client_secret: 8171438709654079995
+  client_id: 3MVG94DzwlYDSHS6..wFTo4MOjxZfZrV1kP5C9HHyQk3Oj1Tg7C_hS2YLiSRORP2D9NUlidDcQ02ah4wBY_nd
+  instance_url: https://test.salesforce.com/services/oauth2/token
+  url: https://cs4.salesforce.com
+
+
+
