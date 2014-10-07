@@ -1,12 +1,12 @@
 
 
-Before do
+Before('@seed') do |scenario|
   $seed = Seed.new
   if !$check
       $seed.seed_data
       $check = true
-    end
   end
+end
 
   After('@seed') do  |scenario|
     base_page=BasePage.new(Capybara.current_session)
@@ -24,7 +24,11 @@ Before do
       $seed.seed_for_integration
   end
 
-  After('@integration') do  |scenario|
-    $seed.delete_opportunity $create_opp['opp_name']
-    $seed.delete_contact $create_opp[:contact]['new_contact_fname']
-  end
+  # Before('@seed') do |scenario|
+  #     $seed.seed_for_test
+  # end
+  #
+  # After('@seed') do  |scenario|
+  #   $seed.delete_opportunity $create_opp['opp_name']
+  #   # $seed.delete_contact $create_opp[:contact]['new_contact_fname']
+  # end

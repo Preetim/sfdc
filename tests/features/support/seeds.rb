@@ -1,7 +1,6 @@
-
+require 'Databasedotcom'
 
 class Seed
-  require 'Databasedotcom'
   @@username = DATABASE["username"]
   @@password = DATABASE["password"]
   @@client_id = DATABASE["client_id"]
@@ -34,7 +33,7 @@ class Seed
   def seed_account account
     @client.materialize("Account")
     is_account_null = Account.query("Name = '"+ account +"'").inspect
-    #Seed Account if it does not exists..
+    # Seed Account if it does not exist..
     p "*" * 50
     if  is_account_null == "[]"
       (puts "Seeding #{account}...................................................")

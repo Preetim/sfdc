@@ -8,7 +8,7 @@
      - Password@4
   Administrator:
      - admintestuser@thoughtworks.com.sfdcuat2
-     - Password@4
+     - Passw0rd
   Studios:
        - preemish5+studiosuser@gmail.com
        - Password@4

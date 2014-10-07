@@ -6,6 +6,7 @@ require 'capybara-screenshot/cucumber'
 require 'capybara-screenshot'
 
 Capybara.default_driver = :selenium
+Capybara.default_wait_time = 10
 
 CONFIG = YAML.load_file("config/config.yml")[ENV['NAME'].to_sym]
 DATABASE = YAML.load_file("config/database.yml")[ENV['NAME'].to_sym]

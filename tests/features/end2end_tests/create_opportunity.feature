@@ -11,6 +11,6 @@ Feature: In order to create an opportunity
 Examples:
 | Role                      |  Type    |
 | ProfessionalServices User |   ps     |
-| Administrator             |   ps     |
 | Studios                   |   studios|
-| Administrator             |   studios|
+#| Administrator             |   studios|
+#| Administrator             |   ps     |
